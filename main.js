@@ -78,7 +78,7 @@
         }
 
         // Fade in animation for elements when scrolling
-        const fadeElements = document.querySelectorAll('.menu-item, .gallery-item, .about-content');
+        const fadeElements = document.querySelectorAll('.meal-card, .menu-item, .gallery-item, .about-content');
         
         const fadeObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -94,4 +94,5 @@
             el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
             fadeObserver.observe(el);
+
         });

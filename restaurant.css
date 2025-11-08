@@ -80,7 +80,7 @@
 
         /* Header Styles */
         header {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/home_bg.jpeg');
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/home_bg.jpeg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -222,7 +222,7 @@
 
         /* Daytime Section */
         #daytime {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/daytime_bg.jpeg');
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/daytime_bg.jpeg');
             background-size: cover;
             background-position: center;
             color: white;
@@ -328,7 +328,7 @@
 
         /* Gallery Section */
         #gallery {
-            background-image: url(/images/offer-background.jpg);
+            background-image: url(images/offer-background.jpg);
         }
 
         #gallery .section-title h2 {
@@ -593,4 +593,5 @@
             .time-cards {
                 grid-template-columns: 1fr;
             }
+
         }
